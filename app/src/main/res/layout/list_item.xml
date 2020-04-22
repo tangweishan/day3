@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:id="@+id/img_m"
+        android:src="@mipmap/a"
+        android:layout_height="400dp"/>
+    <TextView
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:gravity="left"
+        android:background="#f00"
+        android:text="植物小知识"
+        android:layout_height="50dp"/>
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@mipmap/b"
+            />
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@mipmap/b"
+            />
+    </LinearLayout>
+</LinearLayout>
